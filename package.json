@@ -1,0 +1,26 @@
+{
+  "name": "command-line-contact-builder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OnlyMeHere/command-line-contact-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OnlyMeHere/command-line-contact-builder/issues"
+  },
+  "homepage": "https://github.com/OnlyMeHere/command-line-contact-builder#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
