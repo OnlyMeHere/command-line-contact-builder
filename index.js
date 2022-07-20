@@ -3,10 +3,42 @@ const inquirer = require('inquirer');
 
 // first set of questions ask for team manager's name, Emplyee ID, email, & office #.
 
+inquirer
+    .prompt([
+        {
+            type: 'input',
+            name: 'mngrName',
+            message: 'Enter Team Managers name'
+        },
+        {
+            type: 'input',
+            name: 'emplyId',
+            message: 'enter Employee ID',
+        },
+        {
+            type: 'input',
+            name: 'emailAdd',
+            message: 'Enter email address',
+        },
+        {
+            type: 'input',
+            name: 'officeNum',
+            message: 'Enter office number',
+        },
+        {
+            type: 'list',
+            name: 'firstChoice',
+            message: 'Choose a team member',
+            choices: ['Engineer', 'Intern', 'Generate Page'],
+
+        },
+
+    ])
+    .then
 
 
 
-// next a menue with options to add and engineer or intern.
+        // next a menue with options to add and engineer or intern.
 
 
 
