@@ -1,4 +1,4 @@
-const Employee = reuqire('../employee.js');
+const Employee = require('./employee.js');
 
 describe("Employee", () => {
     it("should return an object containing a 'string' property when called with the 'new' keyword", () => {
@@ -10,7 +10,7 @@ describe("Employee", () => {
         expect("string" in obj).toEqual(true);
     });
 
-    
+
 
 
 })
